@@ -70,6 +70,10 @@
   font-size: 17px;
   color: #fff;
   font-weight: bold;
+  transition: all 1s;
+}
+.perfil-description .info-top #btn-seguir:hover {
+  background-color: rgba(18, 18, 235, 0.932);
 }
 .perfil-description .info-top #btn-messagem {
   border: none;
@@ -79,12 +83,20 @@
   font-size: 16px;
   color: #000;
   font-weight: 400;
+  transition: all 1s;
+}
+.perfil-description .info-top #btn-messagem:hover {
+  background-color: rgba(121, 109, 109, 0.664);
 }
 .perfil-description .info-top .btn-add {
   border: none;
   background-color: rgba(121, 109, 109, 0.411);
   padding: 14px 15px;
   border-radius: 10px;
+  transition: all 1s;
+}
+.perfil-description .info-top .btn-add:hover {
+  background-color: rgba(121, 109, 109, 0.664);
 }
 .perfil-description .info-top .trespoints {
   font-size: 30px;
@@ -111,6 +123,10 @@
 .perfi-name :nth-child(3) {
   font-size: 22px;
   font-weight: bold;
+  width: 180px;
+}
+.perfi-name :nth-child(3):hover {
+  color: rgba(18, 18, 235, 0.932);
 }
 
 .info-galey {
@@ -124,7 +140,7 @@
 .info-galey button {
   font-size: 22px;
   border: none;
-  padding: 10px 14px;
+  padding: 30px 14px;
   text-transform: uppercase;
   background-color: transparent;
 }

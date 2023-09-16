@@ -67,8 +67,12 @@
             font-size: 17px;
             color: #fff;
             font-weight: bold;
+            transition: all 1s;
         }
-
+        
+        #btn-seguir:hover{
+            background-color: rgba(18, 18, 235, 0.932);
+        }
         #btn-messagem{
             border: none;
             background-color: rgba(121, 109, 109, 0.411);
@@ -77,6 +81,13 @@
             font-size: 16px;
             color: #000;
             font-weight: 400;
+            transition: all 1s;
+
+        }
+
+        #btn-messagem:hover{
+            background-color: rgba(121, 109, 109, 0.664);
+
         }
 
         .btn-add{
@@ -84,7 +95,13 @@
             background-color: rgba(121, 109, 109, 0.411);
             padding: 14px 15px;
             border-radius: 10px;
+            transition: all 1s;
            
+        }
+
+        .btn-add:hover{
+            background-color: rgba(121, 109, 109, 0.664);
+
         }
 
        .trespoints{
@@ -116,6 +133,12 @@
     :nth-child(3){
         font-size: 22px;
         font-weight: bold;
+        width: 180px;
+    }
+
+    :nth-child(3):hover{
+        color:rgba(18, 18, 235, 0.932);
+
     }
 }
 
@@ -130,7 +153,7 @@
     button{
         font-size: 22px;
         border: none;
-        padding: 10px 14px;
+        padding: 30px 14px;
         text-transform: uppercase;
         background-color: transparent;
 
