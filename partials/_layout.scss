@@ -5,4 +5,115 @@
     width: 100%;
 }
 
+.container-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    width: 100%;
+    height: 370px;
+    margin-left: 80px;
+}
+
+.perfil-img{
+    width: 20%;
+    text-align: left;
+    flex: 0.4;
+    height: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        max-width: 250px;
+        border-radius: 50%;
+        border: 6px solid $blue-btn;
+        padding: 10px;
+    }
+}
+
+.perfil-description{
+    height: inherit;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    .info-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+
+        h1{
+            font-size: 24px;
+            font-weight: normal;
+        }
+
+        #btn-seguir{
+            border: none;
+            background-color: $blue-btn;
+            padding: 14px 30px;
+            border-radius: 10px;
+            font-size: 17px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        #btn-messagem{
+            border: none;
+            background-color: rgba(121, 109, 109, 0.411);
+            padding: 14px 40px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #000;
+            font-weight: 400;
+        }
+
+        .btn-add{
+            border: none;
+            background-color: rgba(121, 109, 109, 0.411);
+            padding: 14px 15px;
+            border-radius: 10px;
+           
+        }
+
+       .trespoints{
+        font-size: 30px;
+       }
+    }
+}
+
+
+.perfi-segui{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 20px 0;
+    font-size: 17px;
+}
+
+.perfi-name{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 0 0;
+    gap: 10px;
+
+    :nth-child(2){
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    :nth-child(3){
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
 

@@ -1,4 +1,87 @@
 .navbar{
-    background-color: red;
-    
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+    z-index: 1;
 }
+
+.navbar nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+
+    ul li{
+        list-style: none;
+        line-height: 60px;
+
+        a i{
+            font-size: 23px;
+            color: $black-normal;
+            line-height: 40px;
+        }
+    }
+}
+
+.logo-insta{
+    color: red;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.nav-hamburguer{
+    padding: 60px 0px 15px 0px;
+
+    i{
+        color: #000;
+        font-size: 35px;
+    }
+}
+
+ul{
+
+    li a i{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+
+
+    li{
+
+        position: relative;
+    }
+    
+    span{
+        visibility: hidden;
+        line-height: 40px;
+        position: absolute;
+        left: 55px;
+        background-color: rgba(128, 128, 128, 0.37);
+        width: 110px;
+        height: 40px;
+        border-radius: 10px;
+        padding: 0px 0 0 5px;
+        cursor: pointer;
+       
+    }
+
+
+}
+
+
+
+ul li a i:hover{
+    background-color: rgba(128, 128, 128, 0.274);
+
+
+   
+}
+
+
+
