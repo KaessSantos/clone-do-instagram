@@ -43,6 +43,8 @@
 
 ul{
 
+    
+
     li a i{
         width: 40px;
         height: 40px;
@@ -50,12 +52,20 @@ ul{
         text-align: center;
 
     }
+
     
     
     
     li{
         position: relative;
+
+        .ulImg{
+            width: 35px;
+            border-radius: 50%;
+        }
     }
+
+    
     
     span{
         line-height: 40px;
