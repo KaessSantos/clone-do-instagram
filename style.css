@@ -116,7 +116,6 @@
   width: 80px;
   height: 100vh;
   border-right: 1px solid rgba(0, 0, 0, 0.274);
-  z-index: 1;
 }
 
 .navbar nav {
@@ -160,20 +159,25 @@ ul li {
   position: relative;
 }
 ul span {
-  visibility: hidden;
   line-height: 40px;
   position: absolute;
   left: 55px;
   background-color: rgba(128, 128, 128, 0.37);
-  width: 110px;
+  width: 90px;
   height: 40px;
   border-radius: 10px;
-  padding: 0px 0 0 5px;
   cursor: pointer;
+  visibility: hidden;
+  text-align: center;
+  overflow: hidden;
 }
 
-ul li a i:hover {
+i:hover {
   background-color: rgba(128, 128, 128, 0.274);
+}
+
+li:hover span {
+  visibility: visible;
 }
 
 body {
