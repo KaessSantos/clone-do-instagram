@@ -17,7 +17,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 50px 0;
   width: 100%;
   height: 370px;
   margin-left: 80px;
@@ -25,10 +25,8 @@
 }
 
 .perfil-img {
-  width: 20%;
-  text-align: left;
+  width: 100%;
   flex: 0.4;
-  height: inherit;
   height: inherit;
   display: flex;
   justify-content: center;
@@ -43,7 +41,7 @@
 
 .perfil-description {
   height: inherit;
-  flex: 1;
+  flex: 0.8;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -139,7 +137,6 @@
 
 .galery {
   margin-left: 80px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,7 +149,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .photos {
@@ -161,15 +157,13 @@
   justify-content: center;
   align-items: center;
   width: 85%;
-  height: 415px;
   margin: 10px;
-  overflow: hidden;
 }
 .photos img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35%;
+  width: 30%;
   margin: 20px;
 }
 
